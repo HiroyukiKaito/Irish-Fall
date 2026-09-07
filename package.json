@@ -1,0 +1,15 @@
+{
+  "name": "irish-fall",
+  "version": "1.0.0",
+  "description": "Irish Fall — an endless dark browser game and its showcase/download site. HTML5 Canvas + vanilla JS, zero dependencies.",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "serve": "python3 -m http.server 8123",
+    "start": "python3 -m http.server 8123",
+    "test": "node scripts/smoke.js",
+    "build:offline": "node scripts/build-offline.js"
+  },
+  "keywords": ["game", "html5", "canvas", "endless", "browser", "no-dependencies"],
+  "engines": { "node": ">=16" }
+}

@@ -1,0 +1,18 @@
+# OS / editor
+.DS_Store
+Thumbs.db
+*.log
+.idea/
+.vscode/
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+
+# Node (kept for hygiene even though this project has no deps)
+node_modules/
+npm-debug.log*
+
+# Local server pid files
+*.pid
